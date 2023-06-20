@@ -1,15 +1,13 @@
 import React, {FC, JSX} from "react";
 import styles from './StateBlock.module.css';
 import canvasState from "../../store/canvasState";
-import {observer} from "mobx-react-lite";
 
 
 interface IStateBlockProps {
   openModal: () => void;
-  store: any
 }
 
-const StateBlock: FC<IStateBlockProps> = observer(({openModal, store}): JSX.Element => {
+const StateBlock: FC<IStateBlockProps> = ({openModal}): JSX.Element => {
   const clickHandler = () => {
     openModal()
   }
@@ -25,5 +23,5 @@ const StateBlock: FC<IStateBlockProps> = observer(({openModal, store}): JSX.Elem
 
     </aside>
   );
-})
+}
 export default StateBlock;

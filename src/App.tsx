@@ -126,8 +126,7 @@ function App() {
     <BrowserRouter>
       <div className="app">
 
-        <StateBlock openModal={openModalHandler}
-                    store={toolState}/>
+        <StateBlock openModal={openModalHandler}/>
 
         <Routes>
           <Route path="/"
