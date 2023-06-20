@@ -1,0 +1,36 @@
+.toolbar {
+  margin-bottom: 15px;
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  background-color: floralwhite;
+  box-shadow: 0 4px 5px darkgray;
+}
+.toolbar__controls {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+}
+.toolbar__btn {
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px 2px lightgrey;
+}
+.toolbar__btn:hover {
+  background-color: aliceblue;
+}
+.toolbar__btn:active {
+  background-color: lavender;
+}
+.toolbar__btnActive {
+  border-color: red;
+}
+
+/*# sourceMappingURL=ToolBar.module.css.map */

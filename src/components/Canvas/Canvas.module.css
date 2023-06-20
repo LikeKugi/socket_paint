@@ -1,0 +1,14 @@
+.canvas {
+  padding: 20px 0;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.canvas__field {
+  border: 2px solid midnightblue;
+  border-radius: 5px;
+  background-color: white;
+}
+
+/*# sourceMappingURL=Canvas.module.css.map */

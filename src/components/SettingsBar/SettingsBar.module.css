@@ -1,0 +1,11 @@
+.settingsbar {
+  margin-bottom: 15px;
+  padding: 10px 40px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: floralwhite;
+  box-shadow: 0 4px 5px darkgray;
+}
+
+/*# sourceMappingURL=SettingsBar.module.css.map */
